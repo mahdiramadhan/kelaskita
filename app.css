@@ -21,23 +21,30 @@ p{
     margin-left: 35vw;
     margin-right: 40vw;
 }
-button{
-    background-color:yellow;
-    color:black;
+button {
+    background-color:orange;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    margin-left: 0px;
+    cursor: pointer;
+    float: right;
+  }
+  
 
-}
-.email-field, .submit{
-    margin:0;
-}
-.email-field{
+input[type=email] {
+    width: 55%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    margin-right: 0px;
+  }
+.col{
+    float: left;
     margin-left: 35vw;
+    margin-right: 40vw;
 }
 
-.email-field + .submit{
-    border:1px solid #a9a9a9;
-    border-left:0px;
-    height:30px;
-}
 .landingpage{
     height: 70vh;
     width:auto;
